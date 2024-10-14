@@ -5,7 +5,7 @@ export default defineConfig({
         outDir: "../dist",  // โฟลเดอร์ที่เก็บผลลัพธ์การ build
         emptyOutDir: true,  // ล้างโฟลเดอร์ dist ก่อนที่จะ build ใหม่
         rollupOptions: {
-            input: './src/index.html'  // ระบุไฟล์เริ่มต้นถ้ามีหลาย entry points
+            input: './src/input.html'  // ระบุไฟล์เริ่มต้นถ้ามีหลาย entry points
         }
     },
     server: {
